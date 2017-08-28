@@ -1,11 +1,11 @@
 // Include React
-var React = require("react");
+import React, {Component} from 'react';
 
 // This is the main component
 class Main extends Component {
 
   // Here we describe this component's render method
-  render: function() {
+  render() {
     return (
       <h1> HELLOOOO </h1>
     );
